@@ -1,0 +1,14 @@
+{
+  "name": "html-file-http",
+  "version": "1.0.0",
+  "description": "http: html file",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ErfanCE",
+  "license": "ISC"
+}

@@ -1,0 +1,125 @@
+@font-face {
+    font-family: iranSans;
+    src: url(Fonts/woff/IRANSansWeb_Light.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: iranSans;
+    direction: rtl;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+    background: url(Image/login-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.center {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* FORM */
+form {
+    overflow: hidden;
+}
+
+.title {
+    color: #f9f9f9;
+    font-size: 0.98rem;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.username, .password {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 340px;
+}
+
+.username {
+    margin-bottom: 15px;
+}
+
+.username > i, .password > i {
+    float: right;
+    display: block;
+    background-color: #666;
+    color: #f9f9f9;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    width: 35px;
+    padding: 8px;
+    padding-bottom: 9px;
+    font-size: 0.95rem;
+    border: 1px solid #f9f9f9;
+}
+
+.username > input, .password > input {
+    float: right;
+    width: 305px;
+    border: none;
+    padding: 5px 0;
+    padding-right: 10px;
+    font-size: 0.95rem;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #fafafa;
+    color: #000;
+}
+
+form > button {
+    display: block;
+    width: 340px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: #329c36;
+    color: #f9f9f9;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: none;
+}
+
+
+.signup {
+    margin-top: 15px;
+    margin-bottom: 65px;
+    color: #f9f9f9;
+    font-size: 0.98rem;
+}
+
+.signup a {
+    text-decoration: none;
+    color: #3a66f8;
+    font-size: 0.98rem;
+    padding-right: 3px;
+}
+
+.alert-container {
+    width: 440px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.alert {
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    display: none;
+}

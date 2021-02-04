@@ -1,0 +1,11 @@
+{
+  "name": "url-pagename-http",
+  "version": "1.0.0",
+  "description": "http: Display URL Page Name",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ErfanCE",
+  "license": "ISC"
+}

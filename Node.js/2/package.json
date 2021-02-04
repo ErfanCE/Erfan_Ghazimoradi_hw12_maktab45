@@ -1,0 +1,14 @@
+{
+  "name": "display-json-http",
+  "version": "1.0.0",
+  "description": "http: Display JSON file",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ErfanCE",
+  "license": "ISC"
+}
